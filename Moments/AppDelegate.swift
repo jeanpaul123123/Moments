@@ -15,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        //#sans main démarrage
+        // on utilise l'intégralité de l'écran
+        window = UIWindow(frame: UIScreen.main.bounds)
+        // clé de départ et on veut que cela soit visible
+        window?.makeKeyAndVisible()
+        window?.rootViewController = TabBarController()
         return true
     }
 
