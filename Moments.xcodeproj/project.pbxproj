@@ -14,6 +14,8 @@
 		4B1ACBF82307181F0072D74F /* CollectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B1ACBF62307181F0072D74F /* CollectionController.xib */; };
 		4B1ACBFB23071A2B0072D74F /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1ACBF923071A2B0072D74F /* TableController.swift */; };
 		4B1ACBFC23071A2B0072D74F /* TableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B1ACBFA23071A2B0072D74F /* TableController.xib */; };
+		4B55F773230736440001C870 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B55F772230736440001C870 /* Photo.swift */; };
+		4B55F775230737EA0001C870 /* BaseDePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B55F774230737EA0001C870 /* BaseDePhotos.swift */; };
 		4B865D6823071D0A00C88DEA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B865D6723071D0A00C88DEA /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		4B1ACBF62307181F0072D74F /* CollectionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionController.xib; sourceTree = "<group>"; };
 		4B1ACBF923071A2B0072D74F /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		4B1ACBFA23071A2B0072D74F /* TableController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableController.xib; sourceTree = "<group>"; };
+		4B55F772230736440001C870 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		4B55F774230737EA0001C870 /* BaseDePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDePhotos.swift; sourceTree = "<group>"; };
 		4B865D6723071D0A00C88DEA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +97,8 @@
 		4B1ACBF42307170B0072D74F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4B55F772230736440001C870 /* Photo.swift */,
+				4B55F774230737EA0001C870 /* BaseDePhotos.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +179,8 @@
 				4B865D6823071D0A00C88DEA /* TabBarController.swift in Sources */,
 				4B1ACBE1230711E30072D74F /* AppDelegate.swift in Sources */,
 				4B1ACBF72307181F0072D74F /* CollectionController.swift in Sources */,
+				4B55F775230737EA0001C870 /* BaseDePhotos.swift in Sources */,
+				4B55F773230736440001C870 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

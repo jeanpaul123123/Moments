@@ -12,9 +12,16 @@ class TableController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
+    //#photo
+    var photos = [Photo]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //#photo
+        photos  = BaseDePhotos.charger.toutesLesPhotos()
 
+        
         // Do any additional setup after loading the view.
     }
 
