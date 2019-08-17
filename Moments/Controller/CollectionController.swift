@@ -33,6 +33,8 @@ class CollectionController: UIViewController, UICollectionViewDelegate,UICollect
 
     }
     
+    
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return photos.count
     }
@@ -57,6 +59,14 @@ class CollectionController: UIViewController, UICollectionViewDelegate,UICollect
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 15
+    }
+    // #navigation
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let photo = photos[indexPath.item]
+        let controller = PhotoDetailController() //on récupère le controleur vers lequel on va
+        controller.photo = photo
+        // on va présenter un view controller
+        self.present(controller, animated: true, completion: nil)
     }
 
 
