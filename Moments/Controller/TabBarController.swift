@@ -19,7 +19,9 @@ class TabBarController: UITabBarController {
         collection.title = "Collection View"
         collection.tabBarItem.image = UIImage(named: "collectionView")
         
-        let table = TableController()
+        //cette instruction let table = TableController() sans navigation devient :
+        //#navcontroller
+        let table = UINavigationController(rootViewController: TableController())
         table.title = "Table View"
         table.tabBarItem.image = UIImage(named: "tableView")
         
